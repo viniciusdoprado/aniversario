@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Churrasco do Pika - Venha curtir um sábado incrível!">
+    <meta name="keywords" content="Churrasco, Sábado, Festa, Diversão">
+    <meta name="author" content="Seu Nome">
+    <title>Churrasco do Pika</title>
+    <style>
+        /* Fonte personalizada */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+        /* Estilos gerais */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffd700;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 28px;
+            animation: fadeIn 1.5s ease;
+        }
+
+        p {
+            font-size: 20px;
+            animation: fadeIn 2s ease;
+            margin: 10px 0;
+        }
+
+        /* Animações */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Imagem de bebidas com animação */
+        .drink-image {
+            animation: bounce 2s infinite;
+            max-width: 100%; /* Ajustar a largura máxima da imagem para se ajustar ao dispositivo */
+            height: auto;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        /* Componentes de festa */
+        .party-hat {
+            width: 50px;
+            margin-top: -20px;
+        }
+
+        .confetti {
+            background-color: #ff69b4;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            position: absolute;
+            animation: confetti-fall 3s linear infinite, confetti-spin 3s linear infinite;
+        }
+
+        @keyframes confetti-fall {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+
+        @keyframes confetti-spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>E aí, meu camarada!</h1>
+
+    <p>Está afim de curtir um sábado daqueles? Pois então, vem com a gente! O Pika está fazendo um churrasco em sua casa, na Rua Guerino Andretto, número 5226.</p>
+
+    <p>A parada vai começar no sábado às 18 horas da noite e promete ser da hora. Ah, e temos uma super novidade: teremos 50 litros do melhor chopp da Lord Leão para galera!</p>
+
+    <p>Lembrando que convidado não convida por uma questão de espaço limitado!</p>
+
+    <p>Só uma dica importante: respeitamos as leis por aqui, então nada de drogas ilícitas, beleza? Queremos apenas boas vibes e muita diversão.</p>
+
+    <!-- Redimensionar a imagem e adicionar um atributo alt -->
+    <img class="drink-image" src="Resources/0b611a08f3d0008ecf4e3a5b29c540d6.png" alt="Bebidas">
+
+    <p>Ah, e se precisar dar uma saída, fica ligado no bairro, porque temos uns 4 policiais na área. É melhor não arriscar, né?</p>
+
+    <p>Então, pega sua carne preferida, traz umas bebidas para compartilhar e vem se juntar a nós para uma noite incrível!</p>
+
+    <!-- Adicionar a localização usando um link do Google Maps -->
+    <p>Localização do evento: <a href="https://www.google.com/maps?q=-20.4305534362793,-49.955249786377" target="_blank" rel="noopener noreferrer">Clique aqui</a></p>
+
+    <p>Até sábado, meu chapa! 🍻🍖</p>
+</body>
+
+</html>
